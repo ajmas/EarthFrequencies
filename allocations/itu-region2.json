@@ -8,10 +8,9 @@
 */
 {
     "country": null,
-    "region": 1,
+    "region": 2,
     "officialDocument": "http://www.itu.int/pub/R-REG-RR",
-    
-    "allocations": [
+        "allocations": [
      {
           "from": 0.0,
           "to": 9.0,
@@ -59,41 +58,15 @@
      },
      {
           "from": 70.0,
-          "to": 72.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "RADIONAVIGATION", "primary": true, "footnotes": ["5.60"] }
-          ]
-     },
-     {
-          "from": 72.0,
-          "to": 84.0,
-          "unit": "kHz",
-          "allocations": [
-               {"allocation": "FIXED", "primary": true },
-             {"allocation": "MARITIME MOBILE 5.57", "primary": true, "footnotes": ["5.57"] },
-             {"allocation": "RADIONAVIGATION", "primary": true, "footnotes": ["5.60"] }
-          ],
-          "footnotes": ["5.56"]
-     },
-     {
-          "from": 84.0,
-          "to": 86.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "RADIONAVIGATION", "primary": true, "footnotes": ["5.60"]  }
-          ]
-     },
-     {
-          "from": 86.0,
           "to": 90.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true },
-             {"allocation": "MARITIME MOBILE", "primary": true, "footnotes": ["5.57"]  },
-             {"allocation": "RADIONAVIGATION", "primary": true }
+             {"allocation": "MARITIME MOBILE", "primary": true, "footnotes": ["5.57"] },
+             {"allocation": "MARITIME RADIO-NAVIGATION", "primary": true, "footnotes": ["5.60"] },
+             {"allocation": "Radiolocation", "primary": true}
           ],
-          "footnotes": ["5.56"]
+          "footnotes": ["5.61"]
      },
      {
           "from": 90.0,
@@ -104,151 +77,147 @@
              {"allocation": "Fixed", "primary": false }
           ],
           "footnotes": ["5.64"]
-     },
+     },     
      {
           "from": 110.0,
-          "to": 112.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "FIXED", "primary": true },
-             {"allocation": "MARITIME MOBILE RADIONAVIGATION", "primary": true }
-          ],
-          "footnotes": ["5.64"]
-     },
-     {
-          "from": 112.0,
-          "to": 115.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "RADIONAVIGATION", "primary": true, "footnotes": ["5.60"]  }
-          ]
-     },
-     {
-          "from": 115.0,
-          "to": 117.6,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "RADIONAVIGATION", "primary": true, "footnotes": ["5.60"]  },
-             {"allocation": "Fixed", "primary": false },
-             {"allocation": "Maritime mobile", "primary": false }
-          ],
-          "footnotes": ["5.64", "5.66"]
-     },
-     {
-          "from": 117.6,
-          "to": 126.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "FIXED", "primary": true },
-             {"allocation": "MARITIME MOBILE RADIONAVIGATION", "primary": true, "footnotes": ["5.60"]  }
-          ],
-          "footnotes": ["5.64"]
-     },
-     {
-          "from": 126.0,
-          "to": 129.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "RADIONAVIGATION", "primary": true, "footnotes": ["5.60"]  }
-          ]
-     },
-     {
-          "from": 129.0,
           "to": 130.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true },
-             {"allocation": "MARITIME MOBILE RADIONAVIGATION", "primary": true, "footnotes": ["5.60"]  }
+             {"allocation": "MARITIME MOBILE", "primary": true },
+             {"allocation": "MARITIME RADIO-NAVIGATION", "primary": true, "footnotes": ["5.60"] },
+             {"allocation": "Radiolocation", "primary": false}
           ],
-          "footnotes": ["5.64"]
-     },
+          "footnotes": ["5.61"]
+
+     },     
      {
           "from": 130.0,
-          "to": 148.5,
+          "to": 135.7,
           "unit": "kHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true },
              {"allocation": "MARITIME MOBILE", "primary": true }
           ],
-          "footnotes": ["5.64", "5.67"]
+          "footnotes": ["5.64"]
      },
      {
-          "from": 148.5,
-          "to": 255.0,
+          "from": 135.7,
+          "to": 137.8,
           "unit": "kHz",
           "allocations": [
-             {"allocation": "BROADCASTING", "primary": true }
+             {"allocation": "FIXED", "primary": true },
+             {"allocation": "MARITIME MOBILE", "primary": true },
+             {"allocation": "Amateur", "primary": false, "footnotes": ["5.67A"] }
           ],
-          "footnotes": ["5.68", "5.69", "5.70"]
-     },
+          "footnotes": ["5.64"]
+     },     
      {
-          "from": 255.0,
-          "to": 283.5,
+          "from": 137.8,
+          "to": 160,
           "unit": "kHz",
           "allocations": [
-             {"allocation": "BROADCASTING", "primary": true },
+             {"allocation": "FIXED", "primary": true },
+             {"allocation": "MARITIME MOBILE", "primary": true }
+          ],
+          "footnotes": ["5.64"]
+     },        
+     {
+          "from": 160,
+          "to": 190,
+          "unit": "kHz",
+          "allocations": [
+             {"allocation": "FIXED", "primary": true }
+          ]
+
+     },
+     {
+          "from": 190.0,
+          "to": 200.0,
+          "unit": "kHz",
+          "allocations": [
              {"allocation": "AERONAUTICAL RADIONAVIGATION", "primary": true }
-             
-          ],
-          "footnotes": ["5.70", "5.71"]
+          ]
+
+     },    
+     {
+          "from": 200.0,
+          "to": 275.0,
+          "unit": "kHz",
+          "allocations": [
+             {"allocation": "AERONAUTICAL RADIONAVIGATION", "primary": true },
+             {"allocation": "Aeronautical mobile", "primary": false }
+          ]
+
+     },       
+     {
+          "from": 275.0,
+          "to": 285.0,
+          "unit": "kHz",
+          "allocations": [
+             {"allocation": "AERONAUTICAL RADIONAVIGATION", "primary": true },
+             {"allocation": "Aeronautical mobile", "primary": false },
+             {"allocation": "Maritime radionavigation (radiobeacons)", "primary": false }
+          ]
      },
      {
-          "from": 283.5,
+          "from": 285.0,
           "to": 315.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "AERONAUTICAL RADIONAVIGATION", "primary": true },
              {"allocation": "MARITIME RADIONAVIGATION (radiobeacons)", "primary": true, "footnotes": ["5.73"]  }
-          ],
-          "footnotes": ["5.72", "5.74"]
+          ]
      },
      {
           "from": 315.0,
           "to": 325.0,
           "unit": "kHz",
           "allocations": [
-             {"allocation": "AERONAUTICAL RADIONAVIGATION", "primary": true },
-             {"allocation": "Maritime radionavigation (radiobeacons)", "primary": false, "footnotes": ["5.73"]  }
-          ],
-          "footnotes": ["5.72", "5.75"]
+             {"allocation": "MARITIME RADIONAVIGATION (radiobeacons)", "primary": true, "footnotes": ["5.73"]  },
+             {"allocation": "Aeronautical radionavigation", "primary": false }
+             
+          ]
      },
      {
           "from": 325.0,
+          "to": 335.0,
+          "unit": "kHz",
+          "allocations": [
+             {"allocation": "AERONAUTICAL RADIONAVIGATION", "primary": true },
+             {"allocation": "Aeronautical mobile", "primary": false },
+             {"allocation": "Maritime radionavigation (radiobeacons)", "primary": false }             
+          ]
+     },
+     {
+          "from": 335.0,
           "to": 405.0,
           "unit": "kHz",
           "allocations": [
-             {"allocation": "AERONAUTICAL RADIONAVIGATION", "primary": true }
-          ],
-          "footnotes": ["5.72"]
-     },
+             {"allocation": "AERONAUTICAL RADIONAVIGATION", "primary": true },
+             {"allocation": "Aeronautical mobile", "primary": false }
+          ]
+     },     
      {
           "from": 405.0,
           "to": 415.0,
           "unit": "kHz",
           "allocations": [
-             {"allocation": "RADIONAVIGATION", "primary": true, "footnotes": ["5.76"]  }
-          ],
-          "footnotes": ["5.72"]
-     },
-     {
-          "from": 415.0,
-          "to": 435.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "MARITIME MOBILE", "primary": true, "footnotes": ["5.79"] },
-             {"allocation": "AERONAUTICAL RADIONAVIGATION", "primary": true }
+             {"allocation": "RADIONAVIGATION", "primary": true, "footnotes": ["5.76"]  },
+             {"allocation": "Aeronautical mobile", "primary": false }             
           ]
      },
      {
-          "from": 435.0,
+          "from": 415.0,
           "to": 472.0,
           "unit": "kHz",
           "allocations": [
-             {"allocation": "MARITIME MOBILE", "primary": true, "footnotes": ["5.79"] },
-             {"allocation": "Aeronautical radionavigation", "primary": false, "footnotes": ["5.77"] }
+             {"allocation": "MARITIME MOBILE", "primary": true "footnotes": ["5.79"] },
+             {"allocation": "Aeronautical radionavigation", "primary": false }
+
           ],
-          "footnotes": ["5.82"]
-     },     
+          "footnotes": ["5.78","5.82"]
+     },
      {
           "from": 472.0,
           "to": 479.0,
@@ -259,14 +228,14 @@
              {"allocation": "Aeronautical radionavigation", "primary": false, "footnotes": ["5.77","5.80"] }
           ],
           "footnotes": ["5.80B","5.82"]
-     },       
+     },      
      {
           "from": 479.0,
           "to": 495.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "MARITIME MOBILE", "primary": true, "footnotes": ["5.79", "5.79A"]  },
-             {"allocation": "Aeronautical Radionavigation", "primary": false, "footnotes": ["5.77"] }
+             {"allocation": "Aeronautical Radionavigation", "primary": false, "footnotes": ["5.77","5.80"] }
           ],
           "footnotes": ["5.82"]
      },
@@ -276,20 +245,46 @@
           "unit": "kHz",
           "allocations": [
              {"allocation": "MARITIME MOBILE", "primary": true }
-          ]
+          ],
+          "footnotes": ["5.83"]
      },
      {
           "from": 505.0,
-          "to": 526.5,
+          "to": 510.0,
           "unit": "kHz",
           "allocations": [
-             {"allocation": "MARITIME MOBILE", "primary": true, "footnotes": ["5.79", "5.79A", "5.84"]  },
-             {"allocation": "AERONAUTICAL RADIONAVIGATION", "primary": true }
+             {"allocation": "MARITIME MOBILE", "primary": true, "footnotes": ["5.79"]  },
           ]
      },
      {
+          "from": 510.0,
+          "to": 525.0,
+          "unit": "kHz",
+          "allocations": [
+             {"allocation": "MARITIME MOBILE", "primary": true, "footnotes": ["5.79A", "5.84"]  },
+             {"allocation": "AERONAUTICAL RADIONAVIGATION", "primary": true }
+          ]
+     },   
+     {
+          "from": 525.0,
+          "to": 535.0,
+          "unit": "kHz",
+          "allocations": [
+             {"allocation": "BROADCASTING", "primary": true, "footnotes": ["5.86"]  },
+             {"allocation": "AERONAUTICAL RADIONAVIGATION", "primary": true }
+          ]
+     },     
+     {
+          "from": 535.0,
+          "to": 1605.0,
+          "unit": "kHz",
+          "allocations": [
+             {"allocation": "BROADCASTING", "primary": true  },
+          ]
+     },               
+     {
           "from": 526.5,
-          "to": 1606.5,
+          "to": 1605.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "BROADCASTING", "primary": true }
@@ -297,104 +292,83 @@
           "footnotes": ["5.87", "5.87A"]
      },
      {
-          "from": 1606.5,
+          "from": 1606.0,
           "to": 1625.0,
           "unit": "kHz",
           "allocations": [
-             {"allocation": "FIXED", "primary": true },
-             {"allocation": "MARITIME MOBILE", "primary": true, "footnotes": ["5.90"] },
-             {"allocation": "LAND MOBILE", "primary": true }
+             {"allocation": "BROADCASTING", "primary": true, "footnotes": ["5.89"] },
           ],
-          "footnotes": ["5.92"]
+          "footnotes": ["5.90"]
      },
      {
           "from": 1625.0,
-          "to": 1635.0,
+          "to": 1705.0,
           "unit": "kHz",
           "allocations": [
-             {"allocation": "RADIOLOCATION", "primary": true }
+             {"allocation": "FIXED MOBILE", "primary": true },
+             {"allocation": "BROADCASTING", "primary": true, "footnotes": ["5.89"] },
+             {"allocation": "Radiolocation", "primary": false},
+             
           ],
-          "footnotes": ["5.93"]
+          "footnotes": ["5.90"]
      },
      {
-          "from": 1635.0,
+          "from": 1705.0,
           "to": 1800.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true },
-             {"allocation": "MARITIME MOBILE", "primary": true, "footnotes": ["5.90"] },
-             {"allocation": "LAND MOBILE", "primary": true }
-          ],
-          "footnotes": ["5.92", "5.96"]
+             {"allocation": "MOBILE", "primary": true},
+             {"allocation": "RADIOLOCATION", "primary": true },
+             {"allocation": "AERONAUTICAL RADIONAVIGATION", "primary": true }             
+          ]
      },
      {
           "from": 1800.0,
-          "to": 1810.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "RADIOLOCATION", "primary": true }
-          ],
-          "footnotes": ["5.93"]
-     },
-     {
-          "from": 1810.0,
           "to": 1850.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "AMATEUR", "primary": true }
-          ],
-          "footnotes": ["5.98", "5.99", "5.100", "5.101"]
+          ]
      },
      {
           "from": 1850.0,
           "to": 2000.0,
           "unit": "kHz",
           "allocations": [
+             {"allocation": "AMATEUR", "primary": true },
              {"allocation": "FIXED", "primary": true },
              {"allocation": "MOBILE except Aeronautical Mobile", "primary": true }
+             {"allocation": "RADIOLOCATION", "primary": true },
+             {"allocation": "RADIONAVIGATION", "primary": true }
           ],
-          "footnotes": ["5.92", "5.96", "5.103"]
+          "footnotes": ["5.102"]
      },
      {
           "from": 2000.0,
-          "to": 2025.0,
+          "to": 2065.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true },
-             {"allocation": "MOBILE except Aeronautical Mobile (R)", "primary": true }
-          ],
-          "footnotes": ["5.92", "5.103"]
+             {"allocation": "MOBILE", "primary": true }
+          ]
      },
      {
-          "from": 2025.0,
-          "to": 2045.0,
+          "from": 2065.0,
+          "to": 2107.0,
           "unit": "kHz",
           "allocations": [
-             {"allocation": "FIXED", "primary": true },
-             {"allocation": "MOBILE except Aeronautical Mobile (R)", "primary": true },
-             {"allocation": "Meteorological Aids", "primary": false, "footnotes": ["5.104"] }
-          ],
-          "footnotes": ["5.92", "5.103"]
+             {"allocation": "MARITIME MOBILE", "primary": true, "footnotes": ["5.105", "5.106"] }
+          ]
      },
      {
-          "from": 2045.0,
-          "to": 2160.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "FIXED", "primary": true },
-             {"allocation": "MARITIME MOBILE", primary: true },
-             {"allocation": "LAND MOBILE", "primary": true }
-          ],
-          "footnotes": ["5.92"]
-     },
-     {
-          "from": 2160.0,
+          "from": 2107.0,
           "to": 2170.0,
           "unit": "kHz",
           "allocations": [
-             {"allocation": "RADIOLOCATION", "primary": true }
-          ],
-          "footnotes": ["5.93", "5.107"]
+             {"allocation": "FIXED", "primary": true },
+             {"allocation": "MOBILE", "primary": true }
+          ]
      },
      {
           "from": 2170.0,
@@ -427,23 +401,22 @@
           "unit": "kHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true },
-             {"allocation": "MOBILE except Aeronautical Mobile (R)", "primary": true }
+             {"allocation": "MOBILE", "primary": true }
           ],
-          "footnotes": ["5.92", "5.103", "5.112"]
+          "footnotes": ["5.112"]
      },
      {
           "from": 2300.0,
-          "to": 2498.0,
+          "to": 2495.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true },
-             {"allocation": "MOBILE except Aeronautical Mobile (R)", "primary": true },
+             {"allocation": "MOBILE", "primary": true },
              {"allocation": "BROADCASTING", "primary": true, "footnotes": ["5.113"] }
-          ],
-          "footnotes": ["5.103"]
+          ]
      },
      {
-          "from": 2498.0,
+          "from": 2495.0,
           "to": 2501.0,
           "unit": "kHz",
           "allocations": [
@@ -461,33 +434,20 @@
      },
      {
           "from": 2502.0,
-          "to": 2625.0,
+          "to": 2505.0,
           "unit": "kHz",
           "allocations": [
-             {"allocation": "FIXED", "primary": true },
-             {"allocation": "MOBILE except Aeronautical Mobile (R)", "primary": true }
-          ],
-          "footnotes": ["5.92", "5.103", "5.114"]
+             {"allocation": "STANDARD FREQUENCY AND TIME SIGNAL", "primary": true }
+          ]
      },
      {
-          "from": 2625.0,
-          "to": 2650.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "MARITIME MOBILE", "primary": true },
-             {"allocation": "MARITIME RADIONAVIGATION", "primary": true }
-          ],
-          "footnotes": ["5.92"]
-     },
-     {
-          "from": 2650.0,
+          "from": 2505.0,
           "to": 2850.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true },
-             {"allocation": "MOBILE except Aeronautical Mobile (R)", "primary": true }
-          ],
-          "footnotes": ["5.92", "5.103"]
+             {"allocation": "MOBILE", "primary": true }
+          ]
      },
      {
           "from": 2850.0,
@@ -548,33 +508,24 @@
      },
      {
           "from": 3500.0,
-          "to": 3800.0,
+          "to": 3750.0,
+          "unit": "kHz",
+          "allocations": [
+             {"allocation": "AMATEUR", "primary": true }
+          ],
+          "footnotes": ["5.119"]
+     },
+         {
+          "from": 3750.0,
+          "to": 4000.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "AMATEUR", "primary": true },
              {"allocation": "FIXED", "primary": true },
-             {"allocation": "MOBILE except aeronautical mobile", "primary": true }
+             {"allocation": "MOBILE except aeronautical mobile", "primary": true }             
           ],
-          "footnotes": ["5.92"]
-     },
-     {
-          "from": 3800.0,
-          "to": 3900.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "FIXED", "primary": true },
-             {"allocation": "AERONAUTICAL MOBILE (OR) LAND MOBILE", "primary": true }
-          ]
-     },
-     {
-          "from": 3900.0,
-          "to": 3950.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "AERONAUTICAL MOBILE (OR)", "primary": true }
-          ],
-          "footnotes": ["5.123"]
-     },
+          "footnotes": ["5.122","5.125"]
+     }, 
      {
           "from": 3950.0,
           "to": 4000.0,
@@ -608,9 +559,8 @@
           "allocations": [
              {"allocation": "FIXED", "primary": true },
              {"allocation": "MOBILE except aeronautical mobile", "primary": true },
-             {"allocation": "Radiolocation", "primary": false, "footnotes": ["5.132A" }             
-          ],
-          "footnotes": ["5.132B"]
+             {"allocation": "RADIOLOCATION, "primary": true, "footnotes": ["5.132A"" }
+          ]
      },
      {
           "from": 4488.0,
@@ -643,8 +593,7 @@
           "unit": "kHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true },
-             {"allocation": "AERONAUTICAL MOBILE (OR)", "primary": true},
-             {"allocation": "LAND MOBILE", "primary": true },
+             {"allocation": "MOBILE except aeronautical mobile", "primary": true }
              {"allocation": "BROADCASTING", "primary": true, "footnotes": ["5.113"] }
           ]
      },
@@ -701,10 +650,10 @@
           "allocations": [
              {"allocation": "FIXED", "primary": true },
              {"allocation": "MOBILE except aeronautical mobile", "primary": true },
-             {"allocation": "Radiolocation", "primary": false, "footnotes": ["5.132A"] }
-          ],
-          "footnotes": ["5.133A"]
-     },         
+             {"allocation": "RADIOLOCATION", "primary": true, "footnotes": ["5.132A"] }
+             
+          ]
+     },     
      {
           "from": 5275.0,
           "to": 5450.0,
@@ -719,9 +668,7 @@
           "to": 5480.0,
           "unit": "kHz",
           "allocations": [
-             {"allocation": "FIXED", "primary": true },
-             {"allocation": "AERONAUTICAL MOBILE (OR)", "primary": true },
-             {"allocation": "LAND MOBILE", "primary": true }
+             {"allocation": "AERONAUTICAL MOBILE (R)", "primary": true },
           ]
      },
      {
@@ -747,7 +694,7 @@
           "unit": "kHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true },
-             {"allocation": "LAND MOBILE", "primary": true }
+             {"allocation": "MOBILE except aeronautical mobile (R)", "primary": true }
           ]
      },
      {
@@ -807,7 +754,7 @@
           "unit": "kHz",
           "allocations": [
              {"allocation": "AMATEUR", "primary": true},
-             {"allocation": "AMATEUR ��� SATELLITE", "primary": true}
+             {"allocation": "AMATEUR – SATELLITE", "primary": true}
           ],
           "footnotes": ["5.140","5.141","5.141A"]
      },
@@ -825,8 +772,9 @@
           "to": 7300.0,
           "unit": "kHz",
           "allocations": [
-             {"allocation": "BROADCASTING", "primary": true}
-          ]
+             {"allocation": "AMATEUR", "primary": true}
+          ],
+          "footnotes": ["5.142"]
      },
      {
           "from": 7300.0,
@@ -842,9 +790,9 @@
           "to": 7450.0,
           "unit": "kHz",
           "allocations": [
-             {"allocation": "BROADCASTING", "primary": true}
-          ],
-          "footnotes": ["5.143B","5.143C"]
+             {"allocation": "FIXED", "primary": true},
+             {"allocation": "MOBILE except aeronautical mobile (R)", "primary": true}             
+          ]
      },
      {
           "from": 7450.0,
@@ -884,38 +832,12 @@
      },
      {
           "from": 8965.0,
-          "to": 9040.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "AERONAUTICAL MOBILE (OR)", "primary": true}
-          ]
-     },
-     {
-          "from": 9040.0,
-          "to": 9305.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "FIXED", "primary": true}
-          ]
-     },
-     {
-          "from": 9305.0,
-          "to": 9355.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "FIXED", "primary": true}
-             {"allocation": "Radiolocation", "primary": false, "footnotes": ["5.145A"]}
-          ],
-          "footnotes": ["5.145B"]
-     },     
-     {
-          "from": 9355.0,
           "to": 9400.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true}
           ]
-     },     
+     },
      {
           "from": 9400.0,
           "to": 9500.0,
@@ -1071,7 +993,7 @@
              {"allocation": "FIXED", "primary": true},
              {"allocation": "Mobile except aeronautical mobile (R)", "primary": false}
           ]
-     },          
+     },     
      {
           "from": 13450.0,
           "to": 13550.0,
@@ -1080,9 +1002,8 @@
              {"allocation": "FIXED", "primary": true},
              {"allocation": "Mobile except aeronautical mobile (R)", "primary": false},
              {"allocation": "Radiolocation", "primary": false, "footnotes": ["5.132A"]}             
-          ],
-          "footnotes": ["5.149A"]
-     },
+          ]
+     },     
      {
           "from": 13550.0,
           "to": 13570.0,
@@ -1134,7 +1055,7 @@
           "unit": "kHz",
           "allocations": [
              {"allocation": "AMATEUR", "primary": true},
-             {"allocation": "AMATEUR ��� SATELLITE", "primary": true}
+             {"allocation": "AMATEUR – SATELLITE", "primary": true}
           ]
      },
      {
@@ -1213,7 +1134,7 @@
           "unit": "kHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "Radiolocation", "primary": false, "footnotes": ["5.145A"]}
+             {"allocation": "RADIOLOCATION", "primary": false, "footnotes": ["5.145A"]}
           ],
           "footnotes": ["5.145B"]
      },
@@ -1226,7 +1147,6 @@
           ],
           "footnotes": ["5.153"]
      },       
-     {
      {
           "from": 16360.0,
           "to": 17410.0,
@@ -1299,7 +1219,7 @@
           "unit": "kHz",
           "allocations": [
              {"allocation": "AMATEUR", "primary": true},
-             {"allocation": "AMATEUR ��� SATELLITE", "primary": true}
+             {"allocation": "AMATEUR – SATELLITE", "primary": true}
           ],
           "footnotes": ["5.154"]
      },
@@ -1387,7 +1307,7 @@
           "unit": "kHz",
           "allocations": [
              {"allocation": "AMATEUR", "primary": true},
-             {"allocation": "AMATEUR ��� SATELLITE", "primary": true}
+             {"allocation": "AMATEUR – SATELLITE", "primary": true}
           ]
      },
      {
@@ -1480,31 +1400,31 @@
      },
      {
           "from": 24450.0,
-          "to": 24600.0,
+          "to": 24650.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
              {"allocation": "LAND MOBILE", "primary": true},
-             {"allocation": "Radiolocation", "primary": true, "footnotes": ["5.132A"}             
-          ],
-          "footnotes": ["5.158"]
-     },  
+             {"allocation": "RADIOLOCATION", "primary": true, "footnotes": ["5.132A"]}
+             
+          ]
+     },     
      {
-          "from": 24600.0,
+          "from": 24650.0,
           "to": 24890.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
              {"allocation": "LAND MOBILE", "primary": true}
           ]
-     },         
+     },
      {
           "from": 24890.0,
           "to": 24990.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "AMATEUR", "primary": true},
-             {"allocation": "AMATEUR ��� SATELLITE", "primary": true}
+             {"allocation": "AMATEUR – SATELLITE", "primary": true}
           ]
      },
      {
@@ -1587,17 +1507,16 @@
      },
      {
           "from": 26200.0,
-          "to": 26350.0,
+          "to": 26420.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
              {"allocation": "MOBILE except aeronautical mobile", "primary": true},
-             {"allocation": "Radiolocation", "primary": false, "footnotes": ["5.132A"]}             
-          ],
-          "footnotes": ["5.133A"]
-     },     
+             {"allocation": "RADIOLOCATION", "primary": true, "footnotes": ["5.132A"]}             
+          ]
+     },   
      {
-          "from": 26350.0,
+          "from": 26420.0,
           "to": 27500.0,
           "unit": "kHz",
           "allocations": [
@@ -1605,7 +1524,7 @@
              {"allocation": "MOBILE except aeronautical mobile", "primary": true}
           ],
           "footnotes": ["5.150"]
-     },     
+     },        
      {
           "from": 27500.0,
           "to": 28000.0,
@@ -1622,7 +1541,7 @@
           "unit": "kHz",
           "allocations": [
              {"allocation": "AMATEUR", "primary": true},
-             {"allocation": "AMATEUR ��� SATELLITE", "primary": true}
+             {"allocation": "AMATEUR – SATELLITE", "primary": true}
           ]
      },
      {
@@ -1667,27 +1586,7 @@
      },
      {
           "from": 38250.0,
-          "to": 3900.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "FIXED", "primary": true},
-             {"allocation": "MOBILE", "primary": true}
-          ]
-     },
-     {
-          "from": 39000.0,
-          "to": 39500.0,
-          "unit": "kHz",
-          "allocations": [
-             {"allocation": "FIXED", "primary": true},
-             {"allocation": "MOBILE", "primary": true},
-             {"allocation": "Radiolocation", "primary": false, "footnotes": ["5.132A"]}
-          ],
-          "footnotes": ["5.159"]
-     },     
-     {
-          "from": 39500.0,
-          "to": 3986.0,
+          "to": 39986.0,
           "unit": "kHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
@@ -1742,9 +1641,8 @@
           "allocations": [
              {"allocation": "FIXED", "primary": true},
              {"allocation": "MOBILE", "primary": true},             
-             {"allocation": "Radiolocation", "primary": false, "footnotes": ["5.132A"]},             
           ],
-          "footnotes": ["5.160", "5.161B"]
+          "footnotes": ["5.161"]
      },     
      {
           "from": 42.5,
@@ -1755,7 +1653,7 @@
              {"allocation": "MOBILE", "primary": true},             
           ],
           "footnotes": ["5.160","5.161","5.161A"]
-     },              
+     },        
      {
           "from": 44.0,
           "to": 47.0,
@@ -1768,22 +1666,70 @@
      },
      {
           "from": 47.0,
+          "to": 50.0,
+          "unit": "MHz",
+          "allocations": [
+             {"allocation": "FIXED", "primary": true},
+             {"allocation": "MOBILE", "primary": true}
+          ]
+     },    
+     {
+          "from": 50.0,
+          "to": 54.0,
+          "unit": "MHz",
+          "allocations": [
+             {"allocation": "AMATEUR", "primary": true}
+          ],
+          "footnotes": ["5.162A", "5.166", "5.167", "5.167A", "5.168", "5.170"]
+     },      
+     {
+          "from": 54.0,
           "to": 68.0,
           "unit": "MHz",
           "allocations": [
-             {"allocation": "BROADCASTING", "primary": true}
+             {"allocation": "BROADCASTING", "primary": true},
+             {"allocation": "Fixed", "primary": false},
+             {"allocation": "Mobile", "primary": false}             
           ],
-          "footnotes": ["5.162A","5.163","5.164","5.165","5.169","5.171"]
+          "footnotes": ["5.172"]
      },
      {
           "from": 68.0,
+          "to": 72.0,
+          "unit": "MHz",
+          "allocations": [
+             {"allocation": "BROADCASTING", "primary": true}
+             {"allocation": "Fixed", "primary": false},
+             {"allocation": "Mobile", "primary": false}
+          ],
+          "footnotes": ["5.173"]
+     },    
+     {
+          "from": 72.0,
+          "to": 73.0,
+          "unit": "MHz",
+          "allocations": [
+             {"allocation": "FIXED", "primary": true},
+             {"allocation": "MOBILE", "primary": true}
+          ]
+     },         
+     {
+          "from": 73.0,
+          "to": 74.6.0,
+          "unit": "MHz",
+          "allocations": [
+             {"allocation": "RADIO ASTRONOMY", "primary": true},
+          ],
+          "footnotes": ["5.173"]
+     },         
+     {
+          "from": 74.6,
           "to": 74.8,
           "unit": "MHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "MOBILE except aeronautical mobile", "primary": true}
-          ],
-          "footnotes": ["5.149","5.174","5.175","5.177","5.179"]
+             {"allocation": "MOBILE", "primary": true}
+          ]
      },
      {
           "from": 74.8,
@@ -2182,7 +2128,7 @@
           "to": 400.15,
           "unit": "MHz",
           "allocations": [
-             {"allocation": "STANDARD FREQUENCY AND TIME SIGNAL ��� SATELLITE (400.1MHz)", "primary": true}
+             {"allocation": "STANDARD FREQUENCY AND TIME SIGNAL – SATELLITE (400.1MHz)", "primary": true}
           ],
           "footnotes": ["5.261","5.262"]
      },
@@ -2205,7 +2151,7 @@
           "unit": "MHz",
           "allocations": [
              {"allocation": "METEOROLOGICAL AIDS SPACE OPERATION (Space-to-Earth)", "primary": true},
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (Earth-to-space)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (Earth-to-space)", "primary": true},
              {"allocation": "Meteorological-satellite (Earth-to-space)", "primary": false},
              {"allocation": "Fixed", "primary": false},
              {"allocation": "Mobile except aeronautical mobile", "primary": false}
@@ -2464,7 +2410,7 @@
           "unit": "MHz",
           "allocations": [
              {"allocation": "AERONAUTICAL RADIONAVIGATION", "primary": true},
-             {"allocation": "RADIOLOCATION RADIONAVIGATION ��� SATELLITE (Earth-to-space)", "primary": true}
+             {"allocation": "RADIOLOCATION RADIONAVIGATION – SATELLITE (Earth-to-space)", "primary": true}
           ],
           "footnotes": ["5.337","5.149","5.337A"]
      },
@@ -2484,7 +2430,7 @@
           "to": 1427.0,
           "unit": "MHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (passive)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (passive)", "primary": true},
              {"allocation": "RADIO ASTRONOMY", "primary": true},
              {"allocation": "SPACE RESEARCH (passive)", "primary": true}
           ],
@@ -2552,7 +2498,7 @@
              {"allocation": "SPACE OPERATION (Space-to-earth)", "primary": true},
              {"allocation": "FIXED", "primary": true},
              {"allocation": "MOBILE-SATELLITE (Space-to-earth)", "primary": true},
-             {"allocation": "Earth exploration ��� satellite", "primary": false},
+             {"allocation": "Earth exploration – satellite", "primary": false},
              {"allocation": "Mobile except aeronautical mobile", "primary": false}
           ],
           "footnotes": ["5.347A","5.351A","5.349","5.341","5.342","5.350","5.351","5.352A","5.354"]
@@ -2566,7 +2512,7 @@
              {"allocation": "MOBILE-SATELLITE (Space to Earth)", "primary": true},
              {"allocation": "Mobile except aeronautical mobile", "primary": false}
           ],
-          "footnotes": ["5.347A","5.351A","5.353A Earth exploration ��� satellite Fixed","5.341","5.342","5.351","5.354"]
+          "footnotes": ["5.347A","5.351A","5.353A Earth exploration – satellite Fixed","5.341","5.342","5.351","5.354"]
      },
      {
           "from": 1535.0,
@@ -2583,7 +2529,7 @@
           "unit": "MHz",
           "allocations": [
              {"allocation": "AERONAUTICAL RADIONAVIGATION", "primary": true},
-             {"allocation": "RADIONAVIGATION ��� SATELLITE (Space-to-earth) (Space-to-space)", "primary": true}
+             {"allocation": "RADIONAVIGATION – SATELLITE (Space-to-earth) (Space-to-space)", "primary": true}
           ],
           "footnotes": ["5.328B 5.329A","5.341","5.362B","5.362C","5.363"]
      },
@@ -2633,7 +2579,7 @@
           "to": 1660.5,
           "unit": "MHz",
           "allocations": [
-             {"allocation": "MOBILE ���SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.351A"]},
+             {"allocation": "MOBILE –SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.351A"]},
              {"allocation": "RADIO ASTRONOMY", "primary": true}
           ],
           "footnotes": ["5.149","5.341","5.351","5.354","5.362A","5.376A"]
@@ -2655,7 +2601,7 @@
           "to": 1668.4,
           "unit": "MHz",
           "allocations": [
-             {"allocation": "MOBILE ���SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.348C", "5.379B"]},
+             {"allocation": "MOBILE –SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.348C", "5.379B"]},
              {"allocation": "RADIO ASTRONOMY", "primary": true},
              {"allocation": "SPACE RESEARCH (passive) Fixed", "primary": true},
              {"allocation": "Mobile except aeronautical mobile", "primary": false}
@@ -2670,7 +2616,7 @@
              {"allocation": "METEOROLOGICAL AIDS", "primary": true},
              {"allocation": "FIXED", "primary": true},
              {"allocation": "MOBILE except aeronautical mobile", "primary": true},
-             {"allocation": "MOBILE ���SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.348C", "5.379B"]},
+             {"allocation": "MOBILE –SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.348C", "5.379B"]},
              {"allocation": "RADIO ASTRONOMY", "primary": true}
           ],
           "footnotes": ["5.379C","5.149","5.341","5.379","5.379A","5.379D"]
@@ -2768,11 +2714,11 @@
           "to": 2110.0,
           "unit": "MHz",
           "allocations": [
-             {"allocation": "SPACE OPERATION (Earth ��� to space)  (Space ��� to space)", "primary": true},
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (Earth ��� to space)  (Space ��� to space)", "primary": true},
+             {"allocation": "SPACE OPERATION (Earth – to space)  (Space – to space)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (Earth – to space)  (Space – to space)", "primary": true},
              {"allocation": "FIXED", "primary": false},
              {"allocation": "MOBILE", "primary": true, "footnotes": ["5.391"]},
-             {"allocation": "SPACE RESEARCH Earth ��� to space) (Space ��� to space)", "primary": true}
+             {"allocation": "SPACE RESEARCH Earth – to space) (Space – to space)", "primary": true}
           ],
           "footnotes": ["5.392"]
      },
@@ -2783,7 +2729,7 @@
           "allocations": [
              {"allocation": "FIXED", "primary": true},
              {"allocation": "MOBILE", "primary": true, "footnotes": ["5.388A", "5.388B"]},
-             {"allocation": "SPACE RESEARCH (Deep space) (Earth ��� to space)", "primary": true}
+             {"allocation": "SPACE RESEARCH (Deep space) (Earth – to space)", "primary": true}
           ],
           "footnotes": ["5.388"]
      },
@@ -2813,11 +2759,11 @@
           "to": 2290.0,
           "unit": "MHz",
           "allocations": [
-             {"allocation": "SPACE OPERATION (Space-to-earth)  (Space ��� to space)", "primary": true},
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (Space ��� to - earth) (Space ��� to space)", "primary": true},
+             {"allocation": "SPACE OPERATION (Space-to-earth)  (Space – to space)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (Space – to - earth) (Space – to space)", "primary": true},
              {"allocation": "FIXED", "primary": false},
              {"allocation": "MOBILE", "primary": true, "footnotes": ["5.391"]},
-             {"allocation": "SPACE RESEARCH (Space ��� to Earth) (Space ��� to space)", "primary": true}
+             {"allocation": "SPACE RESEARCH (Space – to Earth) (Space – to space)", "primary": true}
           ],
           "footnotes": ["5.392"]
      },
@@ -2828,7 +2774,7 @@
           "allocations": [
              {"allocation": "FIXED", "primary": true},
              {"allocation": "MOBILE except aeronautical mobile", "primary": true},
-             {"allocation": "SPACE RESEARCH (Deep space) (Space ��� to Earth)", "primary": true}
+             {"allocation": "SPACE RESEARCH (Deep space) (Space – to Earth)", "primary": true}
           ]
      },
      {
@@ -2884,7 +2830,7 @@
           "allocations": [
              {"allocation": "FIXED", "primary": true, "footnotes": ["5.409","5.410","5.411"]},
              {"allocation": "MOBILE except aeronautical mobile", "primary": true},
-             {"allocation": "BROADCASTING ��� SATELLITE", "primary": true}
+             {"allocation": "BROADCASTING – SATELLITE", "primary": true}
           ],
           "footnotes": ["5.384A","5.413","5.416","5.339","5.403","5.405","5.412","5.417C","5.417D","5.418B","5.418C"]
      },
@@ -2895,7 +2841,7 @@
           "allocations": [
              {"allocation": "FIXED", "primary": true, "footnotes": ["5.409","5.410","5.411"]},
              {"allocation": "MOBILE except aeronautical mobile", "primary": true},
-             {"allocation": "BROADCASTING ��� SATELLITE Earth exploration ��� satellite (passive)", "primary": true},
+             {"allocation": "BROADCASTING – SATELLITE Earth exploration – satellite (passive)", "primary": true},
              {"allocation": "Radio astronomy", "primary": false},
              {"allocation": "Space research  (passive)", "primary": false}
           ],
@@ -2909,7 +2855,7 @@
              {"allocation": "FIXED", "primary": true, "footnotes": ["5.409", "5.410", "5.411"]},
              {"allocation": "MOBILE except aeronautical mobile", "primary": true},
              {"allocation": "MOBILE-SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.351A"]},
-             {"allocation": "Earth exploration ��� satellite (passive) Radio astronomy", "primary": false},
+             {"allocation": "Earth exploration – satellite (passive) Radio astronomy", "primary": false},
              {"allocation": "Space research (passive)", "primary": false}
           ],
           "footnotes": ["5.384A","5.419","5.412","5.419","5.420"]
@@ -2919,7 +2865,7 @@
           "to": 2700.0,
           "unit": "MHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (passive)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (passive)", "primary": true},
              {"allocation": "RADIO ASTRONOMY", "primary": true},
              {"allocation": "SPACE RESEARCH (passive)", "primary": true}
           ],
@@ -3010,7 +2956,7 @@
           "unit": "MHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "FIXED ��� SATELLITE (Space-to-earth)", "primary": true},
+             {"allocation": "FIXED – SATELLITE (Space-to-earth)", "primary": true},
              {"allocation": "MOBILE", "primary": true}
           ],
           "footnotes": ["5.441"]
@@ -3081,7 +3027,7 @@
           "to": 5255.0,
           "unit": "MHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (active)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (active)", "primary": true},
              {"allocation": "RADIOLOCATION", "primary": true},
              {"allocation": "SPACE RESEARCH", "primary": true, "footnotes": ["5.447D"]},
              {"allocation": "MOBILE except aeronautical mobile", "primary": true}
@@ -3093,7 +3039,7 @@
           "to": 5350.0,
           "unit": "MHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (active)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (active)", "primary": true},
              {"allocation": "RADIOLOCATION", "primary": true},
              {"allocation": "SPACE RESEARCH (active)", "primary": true},
              {"allocation": "MOBILE except aeronautical mobile", "primary": true}
@@ -3105,7 +3051,7 @@
           "to": 5460.0,
           "unit": "MHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (active)", "primary": true, "footnotes": ["5.448B"]},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (active)", "primary": true, "footnotes": ["5.448B"]},
              {"allocation": "SPACE RESEARCH (active)", "primary": true, "footnotes": ["5.448C","AERONAUTICAL","RADIONAVIGATION"]},
              {"allocation": "RADIOLOCATION", "primary": true, "footnotes": ["5.448D"]}
           ],
@@ -3163,7 +3109,7 @@
           "to": 5830.0,
           "unit": "MHz",
           "allocations": [
-             {"allocation": "FIXED ��� SATELLITE (Earth-to-Space)", "primary": true},
+             {"allocation": "FIXED – SATELLITE (Earth-to-Space)", "primary": true},
              {"allocation": "RADIOLOCATION", "primary": true},
              {"allocation": "Amateur", "primary": false}
           ],
@@ -3174,7 +3120,7 @@
           "to": 5850.0,
           "unit": "MHz",
           "allocations": [
-             {"allocation": "FIXED ��� SATELLITE (Earth-to-Space) RADIOLOCATION", "primary": true},
+             {"allocation": "FIXED – SATELLITE (Earth-to-Space) RADIOLOCATION", "primary": true},
              {"allocation": "Amateur", "primary": false},
              {"allocation": "Amateur-satellite (space-to-earth)", "primary": false}
           ],
@@ -3186,7 +3132,7 @@
           "unit": "MHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "FIXED ��� SATELLITE (Earth-to-Space)", "primary": true},
+             {"allocation": "FIXED – SATELLITE (Earth-to-Space)", "primary": true},
              {"allocation": "MOBILE", "primary": true}
           ],
           "footnotes": ["5.150"]
@@ -3197,7 +3143,7 @@
           "unit": "MHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "FIXED ��� SATELLITE (Earth-to-Space)", "primary": true}
+             {"allocation": "FIXED – SATELLITE (Earth-to-Space)", "primary": true}
           ],
           "footnotes": ["5.457A","5.457B MOBILE","5.149","5.440","5.458"]
      },
@@ -3207,7 +3153,7 @@
           "unit": "MHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "FIXED ��� SATELLITE (Earth-to-Space) (Space-to-earth)", "primary": true, "footnotes": ["5.441"]},
+             {"allocation": "FIXED – SATELLITE (Earth-to-Space) (Space-to-earth)", "primary": true, "footnotes": ["5.441"]},
              {"allocation": "MOBILE", "primary": true}
           ],
           "footnotes": ["5.458","5.458A","5.458B","5.458C"]
@@ -3322,7 +3268,7 @@
           "to": 8175.0,
           "unit": "MHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (Space-to-earth)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (Space-to-earth)", "primary": true},
              {"allocation": "FIXED", "primary": true},
              {"allocation": "FIXED-SATELLITE (Earth-to-space)", "primary": true},
              {"allocation": "MOBILE", "primary": true, "footnotes": ["5.463"]}
@@ -3334,7 +3280,7 @@
           "to": 8215.0,
           "unit": "MHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (Space-to-earth)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (Space-to-earth)", "primary": true},
              {"allocation": "FIXED", "primary": true},
              {"allocation": "FIXED-SATELLITE (Earth-to-space)", "primary": true},
              {"allocation": "Meteorological-satellite (Earth-to-space)", "primary": true},
@@ -3347,7 +3293,7 @@
           "to": 8.4,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (Space-to-earth)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (Space-to-earth)", "primary": true},
              {"allocation": "FIXED", "primary": true},
              {"allocation": "FIXED-SATELLITE (Earth-to-space)", "primary": true},
              {"allocation": "MOBILE", "primary": true, "footnotes": ["5.463"]}
@@ -3378,7 +3324,7 @@
           "to": 8.65,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (active)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (active)", "primary": true},
              {"allocation": "RADIOLOCATION", "primary": true},
              {"allocation": "SPACE RESEARCH (active)", "primary": true}
           ],
@@ -3448,7 +3394,7 @@
           "to": 9.8,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (active)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (active)", "primary": true},
              {"allocation": "RADIOLOCATION RADIONAVIGATION", "primary": true},
              {"allocation": "SPACE RESEARCH (active)", "primary": true}
           ],
@@ -3482,7 +3428,7 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "RADIOLOCATION Amateur", "primary": true},
-             {"allocation": "Amateur ��� satellite", "primary": false}
+             {"allocation": "Amateur – satellite", "primary": false}
           ],
           "footnotes": ["5.481"]
      },
@@ -3511,7 +3457,7 @@
           "to": 10.68,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (Passive)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (Passive)", "primary": true},
              {"allocation": "FIXED", "primary": true},
              {"allocation": "MOBILE except aeronautical mobile", "primary": true},
              {"allocation": "RADIO ASTRONOMY", "primary": true},
@@ -3525,7 +3471,7 @@
           "to": 10.7,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (Passive)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (Passive)", "primary": true},
              {"allocation": "RADIO ASTRONOMY", "primary": true},
              {"allocation": "SPACE RESEARCH (passive)", "primary": true}
           ],
@@ -3537,7 +3483,7 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "FIXED  ��� SATELLITE (Space���to���earth)", "primary": true, "footnotes": ["5.441","5.484A","5.484"]},
+             {"allocation": "FIXED  – SATELLITE (Space–to–earth)", "primary": true, "footnotes": ["5.441","5.484A","5.484"]},
              {"allocation": "MOBILE except aeronautical mobile", "primary": true}
           ]
      },
@@ -3548,7 +3494,7 @@
           "allocations": [
              {"allocation": "FIXED", "primary": true},
              {"allocation": "BROADCASTING", "primary": true},
-             {"allocation": "BROADCASTING ��� SATELLITE Mobile except aeronautical mobile", "primary": true}
+             {"allocation": "BROADCASTING – SATELLITE Mobile except aeronautical mobile", "primary": true}
           ],
           "footnotes": ["5.487","5.487A","5.492"]
      },
@@ -3578,7 +3524,7 @@
           "to": 13.4,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (active)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (active)", "primary": true},
              {"allocation": "AERONAUTICAL RADIONAVIGATION", "primary": true},
              {"allocation": "SPACE RESEARCH (active)", "primary": true}
           ],
@@ -3589,7 +3535,7 @@
           "to": 13.75,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (active)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (active)", "primary": true},
              {"allocation": "RADIOLOCATION", "primary": true},
              {"allocation": "SPACE RESEARCH", "primary": true, "footnotes": ["5.501A"]},
              {"allocation": "Standard frequency and time signal - satellite (Earth-to-space)", "primary": false}
@@ -3601,7 +3547,7 @@
           "to": 14.0,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "FIXED ��� SATELLITE", "primary": true},
+             {"allocation": "FIXED – SATELLITE", "primary": true},
              {"allocation": "(Earth-to-space)", "primary": false, "footnotes": ["5.484A","RADIOLOCATION"]},
              {"allocation": "Standard frequency and time signal - satellite (Earth-to-space)", "primary": false},
              {"allocation": "Space research", "primary": false}
@@ -3613,7 +3559,7 @@
           "to": 14.25,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "FIXED ��� SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.457A", "5.457B"]},
+             {"allocation": "FIXED – SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.457A", "5.457B"]},
              {"allocation": "Mobile-satellite (Earth-to-space)", "primary": false}
           ],
           "footnotes": ["5.484A","5.506","5.506B RADIONAVIGATION 5.504","5.504C","5.506A Space research","5.504A","5.505"]
@@ -3623,7 +3569,7 @@
           "to": 14.3,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "FIXED ��� SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.457A", "5.457B", "5.484A","5.506","5.506B"]},
+             {"allocation": "FIXED – SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.457A", "5.457B", "5.484A","5.506","5.506B"]},
              {"allocation": "Mobile-satellite (Earth-to-space)", "primary": false, "footnotes": ["5.504B","5.506A","5.508A"]},
              {"allocation": "RADIONAVIGATION", "primary": true, "footnotes": ["5.504"]},
              {"allocation": "Space research", "primary": true, "footnotes": ["5.504"]}
@@ -3636,10 +3582,10 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "FIXED ��� SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.457A", "5.457B","5.484A","5.506","5.506B"]},
+             {"allocation": "FIXED – SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.457A", "5.457B","5.484A","5.506","5.506B"]},
              {"allocation": "MOBILE except aeronautical mobile", "primary": true},
              {"allocation": "Mobile-satellite (Earth-to-space)", "primary": false, "footnotes": ["5.504B", "5.506A", "5.509A"]},
-             {"allocation": "Radio navigation ��� satellite", "primary": false}
+             {"allocation": "Radio navigation – satellite", "primary": false}
           ],
           "footnotes": ["5.504A"]
      },
@@ -3649,7 +3595,7 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "FIXED ��� SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.457A", "5.457B"]},
+             {"allocation": "FIXED – SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.457A", "5.457B"]},
              {"allocation": "MOBILE except aeronautical mobile", "primary": true},
              {"allocation": "Mobile-satellite (Earth-to-space)", "primary": false},
              {"allocation": "Space research (space-to-earth)", "primary": false}
@@ -3662,7 +3608,7 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "FIXED ��� SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.457A", "5.457B", "5.484A","5.506","5.506B"]},
+             {"allocation": "FIXED – SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.457A", "5.457B", "5.484A","5.506","5.506B"]},
              {"allocation": "MOBILE except aeronautical mobile", "primary": true},
              {"allocation": "Mobile-satellite (Earth-to-space)", "primary": false, "footnotes": ["5.504B","5.506A","5.509A"]},
              {"allocation": "Radio astronomy", "primary": false}
@@ -3675,7 +3621,7 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "FIXED ��� SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.510"]},
+             {"allocation": "FIXED – SATELLITE (Earth-to-space)", "primary": true, "footnotes": ["5.510"]},
              {"allocation": "MOBILE", "primary": true},
              {"allocation": "Space research", "primary": false}
           ]
@@ -3696,7 +3642,7 @@
           "to": 15.4,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (passive)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (passive)", "primary": true},
              {"allocation": "RADIO ASTRONOMY", "primary": true},
              {"allocation": "SPACE RESEARCH (passive)", "primary": true}
           ],
@@ -3763,7 +3709,7 @@
           "to": 17.3,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (active)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (active)", "primary": true},
              {"allocation": "RADIOLOCATION", "primary": true},
              {"allocation": "SPACE RESEARCH (active)", "primary": true}
           ],
@@ -3774,7 +3720,7 @@
           "to": 17.7,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "FIXED ��� SATELLITE (Earth ���to ��� space) (Space ���to ��� earth)", "primary": true, "footnotes": ["5.516", "5.516A","5.516B"]},
+             {"allocation": "FIXED – SATELLITE (Earth –to – space) (Space –to – earth)", "primary": true, "footnotes": ["5.516", "5.516A","5.516B"]},
              {"allocation": "Radiolocation", "primary": false}
           ],
           "footnotes": ["5.514"]
@@ -3785,7 +3731,7 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "FIXED ��� SATELLITE (Space-to-earth)", "primary": true, "footnotes": ["5.484A","5.516B"]},
+             {"allocation": "FIXED – SATELLITE (Space-to-earth)", "primary": true, "footnotes": ["5.484A","5.516B"]},
              {"allocation": "MOBILE", "primary": true}
           ]
      },
@@ -3795,7 +3741,7 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "FIXED ��� SATELLITE (Space-to-earth)", "primary": true, "footnotes": ["5.484A","5.516B","5.520"]},
+             {"allocation": "FIXED – SATELLITE (Space-to-earth)", "primary": true, "footnotes": ["5.484A","5.516B","5.520"]},
              {"allocation": "MOBILE", "primary": true}
           ],
           "footnotes": ["5.519 5.521"]
@@ -3806,7 +3752,7 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "FIXED ��� SATELLITE (Space ��� to - earth)", "primary": true, "footnotes": ["5.484A","5.516B"]},
+             {"allocation": "FIXED – SATELLITE (Space – to - earth)", "primary": true, "footnotes": ["5.484A","5.516B"]},
              {"allocation": "MOBILE", "primary": true}
           ]
      },
@@ -3817,7 +3763,7 @@
           "allocations": [
              {"allocation": "EARTH EXPLORATION-SATELLITE (passive)", "primary": true},
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "FIXED ��� SATELLITE (Space-to-earth)", "primary": true, "footnotes": ["5.522B"]},
+             {"allocation": "FIXED – SATELLITE (Space-to-earth)", "primary": true, "footnotes": ["5.522B"]},
              {"allocation": "MOBILE except aeronautical mobile", "primary": true},
              {"allocation": "Space research (passive)", "primary": false}
           ],
@@ -3829,7 +3775,7 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "FIXED ��� SATELLITE (Space-to-earth)", "primary": true, "footnotes": ["5.516B","5.523A","MOBILE"]}
+             {"allocation": "FIXED – SATELLITE (Space-to-earth)", "primary": true, "footnotes": ["5.516B","5.523A","MOBILE"]}
           ]
      },
      {
@@ -3838,7 +3784,7 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "FIXED ��� SATELLITE (Space-to-Earth) (Earth-to-space)", "primary": true, "footnotes": ["5.523B", "5.523C","5.523D", "5.523E"]},
+             {"allocation": "FIXED – SATELLITE (Space-to-Earth) (Earth-to-space)", "primary": true, "footnotes": ["5.523B", "5.523C","5.523D", "5.523E"]},
              {"allocation": "MOBILE", "primary": true}
           ]
      },
@@ -3847,8 +3793,8 @@
           "to": 20.1,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "FIXED ��� SATELLITE (Space-to-earth)", "primary": true, "footnotes": ["5.484A","5.516B"]},
-             {"allocation": "Mobile-satellite (Space���to���earth)"}
+             {"allocation": "FIXED – SATELLITE (Space-to-earth)", "primary": true, "footnotes": ["5.484A","5.516B"]},
+             {"allocation": "Mobile-satellite (Space–to–earth)"}
           ],
           "footnotes": ["5.524"]
      },
@@ -3857,8 +3803,8 @@
           "to": 20.2,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "FIXED ��� SATELLITE", "primary": true},
-             {"allocation": "(Space-to-earth)", "primary": false, "footnotes": ["5.484A","5.516B","MOBILE","���","SATELLITE","(Space-to-earth)"]}
+             {"allocation": "FIXED – SATELLITE", "primary": true},
+             {"allocation": "(Space-to-earth)", "primary": false, "footnotes": ["5.484A","5.516B","MOBILE","–","SATELLITE","(Space-to-earth)"]}
           ],
           "footnotes": ["5.524","5.525","5.526","5.527","5.528"]
      },
@@ -3878,7 +3824,7 @@
           "to": 21.4,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (passive)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (passive)", "primary": true},
              {"allocation": "FIXED", "primary": true},
              {"allocation": "MOBILE", "primary": true},
              {"allocation": "SPACE RESEARCH (passive)", "primary": true}
@@ -3891,7 +3837,7 @@
           "allocations": [
              {"allocation": "FIXED", "primary": true},
              {"allocation": "MOBILE", "primary": true},
-             {"allocation": "BROADCASTING ��� SATELLITE", "primary": true}
+             {"allocation": "BROADCASTING – SATELLITE", "primary": true}
           ],
           "footnotes": ["5.347A 5.530"]
      },
@@ -3910,7 +3856,7 @@
           "to": 22.5,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (passive)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (passive)", "primary": true},
              {"allocation": "FIXED", "primary": true},
              {"allocation": "MOBILE except aeronautical mobile", "primary": true},
              {"allocation": "RADIO ASTRONOMY", "primary": true},
@@ -3933,7 +3879,7 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "INTER ��� SATELLITE MOBILE", "primary": true}
+             {"allocation": "INTER – SATELLITE MOBILE", "primary": true}
           ],
           "footnotes": ["5.149"]
      },
@@ -3951,7 +3897,7 @@
           "to": 24.0,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (passive)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (passive)", "primary": true},
              {"allocation": "RADIO ASTRONOMY", "primary": true},
              {"allocation": "SPACE RESEARCH (passive)", "primary": true}
           ],
@@ -3963,7 +3909,7 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "AMATEUR", "primary": true},
-             {"allocation": "AMATEUR ��� SATELLITE", "primary": true}
+             {"allocation": "AMATEUR – SATELLITE", "primary": true}
           ],
           "footnotes": ["5.150"]
      },
@@ -3973,7 +3919,7 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "RADIOLOCATION Amateur", "primary": true},
-             {"allocation": "Earth exploration ��� satellite (active)", "primary": false}
+             {"allocation": "Earth exploration – satellite (active)", "primary": false}
           ],
           "footnotes": ["5.150"]
      },
@@ -3991,7 +3937,7 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "INTER ��� SATELLITE", "primary": true}
+             {"allocation": "INTER – SATELLITE", "primary": true}
           ]
      },
      {
@@ -4008,10 +3954,10 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "FIXED", "primary": true},
-             {"allocation": "INTER ��� SATELLITE", "primary": true, "footnotes": ["5.536"]},
+             {"allocation": "INTER – SATELLITE", "primary": true, "footnotes": ["5.536"]},
              {"allocation": "MOBILE", "primary": true},
-             {"allocation": "Standard frequency and time signal ���", "primary": false},
-             {"allocation": "satellite (Earth ���to- space)", "primary": false}
+             {"allocation": "Standard frequency and time signal –", "primary": false},
+             {"allocation": "satellite (Earth –to- space)", "primary": false}
           ]
      },
      {
@@ -4019,7 +3965,7 @@
           "to": 27.0,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (Space -to-earth)", "primary": true, "footnotes": ["5.536A", "5.536B","FIXED"]},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (Space -to-earth)", "primary": true, "footnotes": ["5.536A", "5.536B","FIXED"]},
              {"allocation": "INTER-SATELLITE", "primary": true, "footnotes": ["5.536"]},
              {"allocation": "MOBILE", "primary": true},
              {"allocation": "SPACE RESEARCH (space-to-earth)", "primary": true},
@@ -4133,7 +4079,7 @@
           "to": 31.8,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ��� SATELLITE (passive)", "primary": true},
+             {"allocation": "EARTH EXPLORATION – SATELLITE (passive)", "primary": true},
              {"allocation": "RADIO ASTRONOMY", "primary": true},
              {"allocation": "SPACE RESEARCH (passive)", "primary": true},
              {"allocation": "Fixed", "primary": true},
@@ -4299,7 +4245,7 @@
           "to": 40.5,
           "unit": "GHz",
           "allocations": [
-             {"allocation": "EARTH EXPLORATION ���SATELLITE (space-to-Earth)", "primary": true},
+             {"allocation": "EARTH EXPLORATION –SATELLITE (space-to-Earth)", "primary": true},
              {"allocation": "FIXED", "primary": true},
              {"allocation": "FIXED-SATELLITE (space-to-Earth)", "primary": true, "footnotes": ["5.516B"]},
              {"allocation": "MOBILE", "primary": true},
@@ -5162,7 +5108,7 @@
           "unit": "GHz",
           "allocations": [
              {"allocation": "AMATEUR", "primary": true},
-             {"allocation": "AMATEUR ��� SATELLITE", "primary": true},
+             {"allocation": "AMATEUR – SATELLITE", "primary": true},
              {"allocation": "Radio Astronomy", "primary": true}
           ],
           "footnotes": ["5.149"]

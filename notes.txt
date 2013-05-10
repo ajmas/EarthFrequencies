@@ -1,0 +1,51 @@
+This file contains information about certain frequency 'applications'. It should eventually me moved into a suitable file.
+
+application: Bluetooth
+info source: http://en.wikipedia.org/wiki/Bluetooth
+band: 2400–2483.5 MHz
+notes: Each channel has a bandwidth of 1 MHz. The first channel starts at 2402 MHz and continues up to 2480 MHz in 1 MHz steps
+
+application: GSM
+info source: http://www.worldtimezone.com/gsm.html , https://en.wikipedia.org/wiki/GSM_frequency_bands ,http://www.waferstar.com/en/GSM-Faq.html
+band: various
+
+application: North American Broadcast Television Frequencies
+info source: http://en.wikipedia.org/wiki/North_American_broadcast_television_frequencies
+
+application: Australasian Broadcast Television Frequencies
+info source: http://en.wikipedia.org/wiki/Australasian_television_frequencies
+
+application: Broadcast Television Frequencies:
+info source: http://en.wikipedia.org/wiki/Television_channel_frequencies
+
+application: Digital Audio Broadcasting
+info source: http://en.wikipedia.org/wiki/Digital_Audio_Broadcasting
+band: depends on geography, though generally Band III (174–240 MHz) and L band (1452–1492 MHz)
+
+Other documents:
+ - http://www.chem.hawaii.edu/uham/catvfreq.html
+ - http://en.wikipedia.org/wiki/DVB-T
+ - http://en.wikipedia.org/wiki/North_American_broadcast_television_frequencies
+
+Frequency allocaitons:
+ - VHF, per ITU: 30 MHz to 300 MHz
+ - MW, mainly for AM radio broadcasting ( http://en.wikipedia.org/wiki/Medium_wave ): 
+    - Europe 526.5 kHz to 1606.5 kHz
+    - North America: 535 kHz to 1705 kHz
+
+Broadcast bands:
+  - VHF: 
+     - Band I ..... 47 to 88 MHz -- http://en.wikipedia.org/wiki/Band_I
+     - Band II  -- http://en.wikipedia.org/wiki/Band_II
+     - Band III ... 174 to 230 MHz -- http://en.wikipedia.org/wiki/Band_III
+  - UHF: 
+     - Band IV
+     - Band V
+  - SHF:
+     - Band VI
+    
+NOAA Weather Satellites
+ 
+ - NOAA 15	137.62 MHz
+ - NOAA 18	137.9125 MHz
+ - NOAA 19	137.10 MHz

@@ -1,0 +1,36 @@
+{
+    "regions": [{
+        "display-name": "ITU Region 1",
+        "name": "itu-region1",
+        "countries": [
+           "AL", "DZ", "AD", "AO", "AM", "AT", "AZ", "BH", "BY", "BE", "BJ", "BA", "BW",
+           "BG", "BF", "BI", "CM", "CV", "CF", "TD", "KM", "CG", "CI", "HR", "CY", "CZ", 
+           "DK", "DJ", "EG", "GQ", "ER", "EE", "ET", "FI", "FR", "GA", "GM", "GE", "DE",
+           "GH", "GR", "GN", "GW", "HU", "IS", "IQ", "IE", "IL", "IT", "JO", "KE", "KW", 
+           "KG", "LV", "LB", "LS", "LR", "LY", "LI", "LT", "LU", "MG", "MW", "ML", "MT", 
+           "MR", "MU", "MD", "MC", "MN", "MA", "MZ", "NA", "NL", "NE", "NG", "NO", "OM", 
+           "PL", "PT", "QA", "RO", "RU", "RW", "SM", "ST", "SA", "SN", "SL", "SK", "SI", 
+           "SO", "ZA", "ES", "SD", "SZ", "SE", "CH", "SY", "TJ", "TZ", "TG", "TN", "TR", 
+           "TM", "UG", "UA", "AE", "GB", "UZ", "VA", "YE", "ZM", "ZW"
+        ]
+    
+    },{
+        "display-name": "ITU Region 2",
+        "name": "itu-region2",
+        "countries": [
+           "AG", "AR", "BS", "BB", "BZ", "BO", "BR", "CA", "CL", "CO", "DM", "CR", "CU",
+           "DO", "EC", "SV", "GD", "GT", "GY", "HT", "HN", "JM", "MX", "NI", "PA", "PY",
+           "PE", "VC", "SR", "TT", "US", "UY", "VE"
+        ]        
+    },{
+        "display-name": "ITU Region 3",
+        "name": "itu-region3",
+        "countries": [
+           "AF", "AU", "BD", "BT", "BN", "KH", "CN", "FJ", "IN", "ID", "IR", "JP", "KI",
+           "KP", "LA", "MY", "MV", "MH", "FM", "MM", "NR", "NP", "NZ", "PK", "PG", "PH",
+           "SG", "SB", "LK", "TH", "TO", "TV", "VU", "VN", "WS"
+        ]
+    
+    
+    }]
+}

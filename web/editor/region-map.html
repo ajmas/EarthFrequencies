@@ -1,0 +1,58 @@
+<html>
+<head>
+  <title>ITU Regions</title>
+  
+    <link rel="stylesheet" type="text/css" href="js/jquery-svg/jquery.svg.css">
+    
+    <script type="text/javascript" src="js/jquery-1.11.2.js"></script>  
+    <script type="text/javascript" src="js/jquery-svg/jquery.svg.js"></script>
+    <script type="text/javascript" src="js/jquery-svg/jquery.svgdom.js"></script>  
+    <script type="text/javascript" src="js/raphael/2.1.2/raphael-min.js"></script>  
+    <script type="text/javascript" src="js/countries.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/itu-regions.js" ></script>
+    
+    <script type="text/javascript">
+    
+    function $s(elem) {
+       return $(document.createElementNS('http://www.w3.org/2000/svg', elem));
+    }
+
+    $(document).ready(function () {
+        var i=0;
+        var svgDoc = $("#worldMap")[0].contentDocument;
+        //console.log(svgDoc);
+        for (i=0; i<countries.length; i++) {
+            //console.log($('g .landxx .' + countries[i]['alpha-2'],svgDoc));
+            //console.log($('g .landxx .' + countries[i]['alpha-2'], svgDoc).length);
+            $('g .landxx .' + countries[i]['alpha-2']).append(
+            '<circle cx="100" cy="50" r="40" stroke="black" stroke-width="2" fill="red"/>'
+            );
+            //'<title>' + countries[i]['name'] + '</title>');
+        }
+        
+//        var $svg = $s("svg")
+  //      console.log(	;
+    });
+    
+    $('#worldMap').ready(function () {
+        console.log($('#worldMap').svg());
+
+        var svgDoc = $('#worldMap').svg();
+        console.log(svgDoc);
+        console.log($('g .landxx .' + countries[3]['alpha-2'],svgDoc));
+        console.log($('g .landxx .' + countries[3]['alpha-2'], svgDoc).length);
+    });
+    
+    </script>
+      
+</head>
+<body>
+<h1>ITU Region Map</h1>
+<div>
+<object data="../misc/International_Telecommunication_Union_region.svg" type="image/svg+xml" id="worldMap">
+</object>
+</div>
+<span>image source: wikipedia</span>
+
+</body>
+</html>

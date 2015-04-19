@@ -9,4 +9,26 @@ Data Sources
 - Radio controlled aircraft frequencies
   http://en.wikipedia.org/wiki/Radio-controlled_aircraft#Frequencies_and_sub-channels  
   
-  
+By Zone:
+
+- itu
+- au
+  http://www.acma.gov.au/webwr/radcomm/frequency_planning/spectrum_plan/aust_rf_spectrum_allocations_chart.pdf
+- ca
+  https://www.ic.gc.ca/eic/site/smt-gst.nsf/vwapj/spectallocation-08.pdf/$FILE/spectallocation-08.pdf
+- eu 
+  http://www.erodocdb.dk/Docs/doc98/official/pdf/ercrep025.pdf   
+- in 
+  http://www.wpc.dot.gov.in/Static/draftnfap2005revised.asp
+- md
+  http://www.cept.org/files/1050/Tools%20and%20Services/EFIS%20-%20ECO%20Frequency%20Information%20System/National%20frequency%20tables/Moldova%20national%20table.pdf
+- mx
+  http://www.cft.gob.mx/wb/Cofetel_2008/Cofe_imagenes_del_cnaf_2007
+- uk
+  http://stakeholders.ofcom.org.uk/binaries/spectrum/spectrum-information/UKFAT_2013.pdf
+- us
+  http://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
+- ws
+  http://www.regulator.gov.ws/files/documents/National-Frequency-Allocation-Table.pdf
+
+   

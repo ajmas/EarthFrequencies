@@ -1,0 +1,187 @@
+<html>
+<head>
+    <title>Frequencies Editor</title>
+
+    <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+    <script type="text/javascript" src="js/countries.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/itu-regions.js" ></script>
+    <script type="text/javascript" src="../categories/us.js" ></script>
+    
+    <script type="text/javascript">
+        var regions = [];
+        
+        function initForm() {
+            var i=0;
+            
+            html = '';
+
+            html += '<optgroup label="ITU Regions">\n';
+            for (i=0; i<ituRegions.length; i++) {
+                html += '<option value="' + ituRegions[i]['ref'] + '">' + ituRegions[i]['name'] + '</option>';
+            }
+            html += '</optgroup>\n';
+                        
+            html += '<optgroup label="Countries">\n';
+            for (i=0; i<countries.length; i++) {
+                html += '<option value="' + countries[i]['alpha-2'] + '">' + countries[i]['name'] + '</option>';
+            }
+            html += '</optgroup>\n';
+                        
+            $('#location').html(html);
+            
+            
+            html = '<select id="usage-primary-alloc-1" name="usage-primary-alloc-1">';
+            
+            for (i=0; i<categories.length; i++) {
+                html += '<option value="' + categories[i]+ '">' + categories[i] + '</option>';
+            }   
+            
+            html += '</select>';
+            
+            $('#usage-primary-alloc-1').parent().html(html);
+         
+            
+        }
+        
+        $(document).ready(function() {
+            initForm();
+        });
+    </script>
+    
+    <style type="text/css">
+        label {
+            width: 200px;
+            display: inline-block;
+        }
+        .formRow {
+            margin-bottom: 4px;
+        }
+        
+        #visualChart {
+            width: 800px;
+            height: 200px;
+            border: solid 1px black;
+            margin-bottom: 5px;
+        }
+        
+        #frequencies {
+            position: relative;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            top: 170px;
+            border-top: solid 1px black;
+        }
+        
+        .col1 {
+             display: inline-block;
+             float: left;
+             width: 550px;
+             /* border-right: solid 1px gray; */
+
+        } 
+        .col2 {
+        	display: inline-block;
+        	padding-left: 20px;
+        	}
+        .col2 input {
+             margin-bottom: 4px;
+        }
+        
+        #formEntry {
+             margin-bottom: 50px;
+
+        }
+ 
+    </style>
+    
+</head>
+
+<body>
+
+<h1>Earth Frequencies</h1>
+
+<div class="formRow">
+    <label for="location">Chart location:</label>
+    <select id="location"></select>
+</div>
+
+<div id="visualChart">
+
+<div id="frequencies"></div>
+</div>
+<img src="images/zoom-in-icon-128.png" style="width: 16px;"/> <img src="images/zoom-out-icon-128.png" style="width: 16px;"/>
+
+<div id="formEntry">
+<h2>Frequency Block</h2>
+<div class="col1">
+<h3>General</h3>
+<div class="formRow">
+    <label for="startFreq">Start Frequency:</label>
+    <input type="text" id="location" name="location"/>
+    <select name="startFreqUnit" id="startFreqUnit"><option>Hz</option><option>KHz</option><option>MHz</option><option>GHz</option></select>
+</div>
+<div class="formRow">
+    <label for="endFreq">End Frequency:</label>
+    <input type="text" id="location" name="location"/> 
+    <select name="endFreqUnit" id="endFreqUnit"><option>Hz</option><option>KHz</option><option>MHz</option><option>GHz</option></select>
+</div>
+<div class="formRow">
+    <label for="endFreq">Allocated:</label>
+    <input type="checkbox" id="allocated" name="allocated"/> 
+</div>
+<div class="formRow">
+    <label for="blockFootnotes">Footnotes:</label>
+    <input type="text" id="blockFootnotes" name="blockFootnotes"/> 
+    <span class="fieldHelp">(Comma separated)</span>
+</div>
+
+<h3>Allocations</h3>
+<h4>Primary Allocations</h4>
+<table>
+<tr>
+    <th>Usage</th>
+    <th>Comment</th>
+    <th>Footnotes</th>
+    <th>Activity</th>
+</tr>
+<tr>
+    <td><input type="text" id="usage-primary-alloc-1" name="usage-primary-alloc-1"/></td>
+    <td><input type="text" id="comment-primary-alloc-1" name="comment-primary-alloc-1"/></td>
+    <td><input type="text" id="footnotes-primary-alloc-1" name="footnotes-primary-alloc-1"/></td>
+    <td>
+        <select id="activity-primary-alloc-1" name="footnotes-primary-alloc-1">
+            <option>n/a</option>
+            <option>Government exclusive</option>
+            <option>Non-government exclusive</option>            
+            <option>Government/Non-government shared</option>            
+
+        </select>
+    </td>
+    <td><img src="images/add.png" style="width: 16px; margin-left: 20px;"/>
+</tr>
+</table>
+
+<h4>Secondary Allocations</h4>
+<table>
+<tr>
+    <th>Usage</th>
+    <th>Footnotes</th>
+    <th></th>
+</tr>
+<tr>
+    <td><input type="text" id="usage-secondary-alloc-1" name="usage-primalloc-1"/></td>
+    <td><input type="text" id="footnotes-secondary-alloc-1" name="footnotes-secondary-alloc-1"/></td>
+</tr>
+</table>
+</div> <!-- End col1 -->
+
+<div class="col2" style="border: solid 1px red; width: 200px;">
+<input type="submit"/><br/>
+<input type="button" value="Remove"/>
+</div> <!-- End col2 -->
+
+</div>  <!-- End formEntry -->
+<div id="footer"></div>
+</body>
+</html>

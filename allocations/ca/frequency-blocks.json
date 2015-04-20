@@ -1,6 +1,6 @@
 {
-country: "ca",
-frequencyBlocks: [
+    "country": "ca",
+    "frequencyBlocks": [
 	{ "start": "0 kHz", "end": "9 kHz" },
 	{ "start": "9 kHz", "end": "14 kHz" },
 	{ "start": "14 kHz", "end": "19.95 kHz" },

@@ -1,6 +1,6 @@
 {
-country: "eu",
-frequencyBlocks: [
+    "country": "eu",
+    "frequencyBlocks": [
 	{ "start": "0 Hz", "end": "8300 Hz" },
 	{ "start": "8300 Hz", "end": "9 kHz" },
 	{ "start": "9 kHz", "end": "11.3 kHz" },

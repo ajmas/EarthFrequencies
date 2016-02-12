@@ -1,0 +1,210 @@
+[
+ {
+  "path": "itu1",
+  "region": "ITU Region 1"
+ },
+ {
+  "path": "itu2",
+  "region": "ITU Region 2"
+ },
+ {
+  "path": "itu3",
+  "region": "ITU Region 3"
+ },
+ {
+  "path": "ad",
+  "region": "Andorra"
+ },
+ {
+  "path": "al",
+  "region": "Albania"
+ },
+ {
+  "path": "at",
+  "region": "Austria"
+ },
+ {
+  "path": "az",
+  "region": "Azerbaijan"
+ },
+ {
+  "path": "be",
+  "region": "Belgium"
+ },
+ {
+  "path": "bg",
+  "region": "Bulgaria"
+ },
+ {
+  "path": "bo",
+  "region": "Bosnia and Herzegovina"
+ },
+ {
+  "path": "by",
+  "region": "Belarus"
+ },
+ {
+  "path": "ca",
+  "region": "Canada"
+ },
+ {
+  "path": "ch",
+  "region": "Switzerland"
+ },
+ {
+  "path": "ci",
+  "region": "Croatia"
+ },
+ {
+  "path": "cy",
+  "region": "Cyprus"
+ },
+ {
+  "path": "cz",
+  "region": "CzechRepublic"
+ },
+ {
+  "path": "de",
+  "region": "Germany"
+ },
+ {
+  "path": "dk",
+  "region": "Denmark"
+ },
+ {
+  "path": "ee",
+  "region": "Estonia"
+ },
+ {
+  "path": "es",
+  "region": "Spain"
+ },
+ {
+  "path": "eu",
+  "region": "European Union"
+ },
+ {
+  "path": "fi",
+  "region": "Finland"
+ },
+ {
+  "path": "fm",
+  "region": "Moldova"
+ },
+ {
+  "path": "fr",
+  "region": "France"
+ },
+ {
+  "path": "gb",
+  "region": "United Kingdom"
+ },
+ {
+  "path": "ge",
+  "region": "Georgia"
+ },
+ {
+  "path": "gr",
+  "region": "Greece"
+ },
+ {
+  "path": "hu",
+  "region": "Hungary"
+ },
+ {
+  "path": "ie",
+  "region": "Ireland"
+ },
+ {
+  "path": "is",
+  "region": "Iceland"
+ },
+ {
+  "path": "it",
+  "region": "Italy"
+ },
+ {
+  "path": "kr",
+  "region": "Kosovo"
+ },
+ {
+  "path": "li",
+  "region": "Liechtenstein"
+ },
+ {
+  "path": "lt",
+  "region": "Lithuania"
+ },
+ {
+  "path": "lu",
+  "region": "Luxembourg"
+ },
+ {
+  "path": "lv",
+  "region": "Latvia"
+ },
+ {
+  "path": "mn",
+  "region": "Montenegro"
+ },
+ {
+  "path": "mo",
+  "region": "Macedonia (FYROM)"
+ },
+ {
+  "path": "mt",
+  "region": "Malta"
+ },
+ {
+  "path": "nl",
+  "region": "Netherlands"
+ },
+ {
+  "path": "no",
+  "region": "Norway"
+ },
+ {
+  "path": "pl",
+  "region": "Poland"
+ },
+ {
+  "path": "pt",
+  "region": "Portugal"
+ },
+ {
+  "path": "ro",
+  "region": "Romania"
+ },
+ {
+  "path": "ru",
+  "region": "Russian Federation"
+ },
+ {
+  "path": "se",
+  "region": "Sweden"
+ },
+ {
+  "path": "sg",
+  "region": "Slovakia"
+ },
+ {
+  "path": "si",
+  "region": "Slovenia"
+ },
+ {
+  "path": "sn",
+  "region": "Serbia"
+ },
+ {
+  "path": "tr",
+  "region": "Turkey"
+ },
+ {
+  "path": "ua",
+  "region": "Ukraine"
+ },
+ {
+  "path": "us",
+  "region": "United States of America"
+ }
+]

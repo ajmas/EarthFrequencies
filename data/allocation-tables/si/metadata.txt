@@ -1,4 +1,0 @@
-name	value
-iso2	si
-name_en	Slovenia
-parentRegions	itu1, eu

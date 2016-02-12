@@ -1,4 +1,0 @@
-name	value
-iso2	ge
-name_en	Georgia
-parentRegions	itu1, eu

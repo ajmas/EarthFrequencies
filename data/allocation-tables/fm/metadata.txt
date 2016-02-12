@@ -1,4 +1,0 @@
-name	value
-iso2	fm
-name_en	Moldova
-parentRegions	itu1, eu

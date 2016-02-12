@@ -1,4 +1,0 @@
-name	value
-iso2	mo
-name_en	Macedonia (FYROM)
-parentRegions	itu1, eu

@@ -1,4 +1,0 @@
-name	value
-iso2	gr
-name_en	Greece
-parentRegions	itu1, eu

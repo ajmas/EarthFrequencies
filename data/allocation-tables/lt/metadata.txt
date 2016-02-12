@@ -1,4 +1,0 @@
-name	value
-iso2	lt
-name_en	Lithuania
-parentRegions	itu1, eu

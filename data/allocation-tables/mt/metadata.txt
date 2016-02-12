@@ -1,4 +1,0 @@
-name	value
-iso2	mt
-name_en	Malta
-parentRegions	itu1, eu

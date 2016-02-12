@@ -1,4 +1,0 @@
-name	value
-iso2	al
-name_en	Albania
-parentRegions	itu1, eu

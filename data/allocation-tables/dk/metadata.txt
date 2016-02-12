@@ -1,4 +1,0 @@
-name	value
-iso2	dk
-name_en	Denmark
-parentRegions	itu1, eu

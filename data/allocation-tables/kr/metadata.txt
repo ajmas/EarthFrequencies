@@ -1,4 +1,0 @@
-name	value
-iso2	kr
-name_en	Kosovo
-parentRegions	itu1, eu

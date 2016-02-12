@@ -1,4 +1,0 @@
-name	value
-iso2	is
-name_en	Iceland
-parentRegions	itu1, eu

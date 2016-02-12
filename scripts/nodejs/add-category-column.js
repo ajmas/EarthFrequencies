@@ -85,6 +85,7 @@ function processAllocationsFile (filePath) {
    			        service = matchedService + service.substring(matchedService.length, service.length);			        
 			    }
 			    
+<<<<<<< HEAD
 			    if ( ! (matchedService || service === '-' || service === '(not allocated)') ) {
 			        console.warn('warning', 'Unknown service', lineIdx, line);			    
 			    }
@@ -96,6 +97,16 @@ function processAllocationsFile (filePath) {
 // 			    else {			      
 // 			        console.error('ERROR', 'Unknown service', lineIdx, line);
 // 			    }
+=======
+			    if (matchedService || service === '-' || service === '(not allocated)') {
+			        fields[fieldNames['Service']] = service;
+			        fields[fieldNames['Footnotes']] = fields[fieldNames['Footnotes']].split('  ').join(',');
+			        fields.splice(fieldNames['End Frequency'] + 1, 0, category);
+			        console.log(fields.join('\t'));
+			    } else {			      
+			        console.error('ERROR', 'Unknown service', lineIdx, line);
+			    }
+>>>>>>> faed5265679517e9a8f3783f07f79b31baf744de
     		}
 	    }	
 	    

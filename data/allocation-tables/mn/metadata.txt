@@ -1,4 +1,0 @@
-name	value
-iso2	mn
-name_en	Montenegro
-parentRegions	itu1, eu

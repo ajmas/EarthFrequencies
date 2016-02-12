@@ -1,4 +1,0 @@
-name	value
-iso2	bo
-name_en	Bosnia and Herzegovina
-parentRegions	itu1, eu

@@ -1,4 +1,0 @@
-name	value
-iso2	pl
-name_en	Poland
-parentRegions	itu1, eu

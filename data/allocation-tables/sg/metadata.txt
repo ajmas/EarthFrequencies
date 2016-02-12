@@ -1,4 +1,0 @@
-name	value
-iso2	sg
-name_en	Slovakia
-parentRegions	itu1, eu

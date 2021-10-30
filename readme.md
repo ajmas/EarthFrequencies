@@ -1,5 +1,4 @@
-Earth Frequencies
-================
+# Earth Frequencies
 
 This is a collection of machine parasable data files, intended for use in an
 amateur context, that describe radio frequency allocations and channels.
@@ -20,10 +19,26 @@ and in all cases you should be aware of local regulation of the air waves.
 If you find errors, please open a bug report in the project's issue tracker,
 or provide a pull-request with the fix.
 
+## Contributions
+
 Contributions are welcome and are appreciated.
 
-Earth Frequencies Viewer
-------------------------
+## License
+
+Creative Commons Attribution-ShareAlike 4.0 International License.
+
+If any sources have different licenses, then those should be treated
+as taking precedence and should be mentioned in the metadata.
+
+## References 
+
+The main starting point of any radio spectrum allocation is the [ITU](https://www.itu.int/en/mediacentre/backgrounders/Pages/itu-r-managing-the-radio-frequency-spectrum-for-the-world.aspx) and then
+it is broken down into regional regulators.
+
+It should be noted that source data may have inaccuries or be out of date, so 
+this should be verified and taken into account.
+
+## Earth Frequencies Viewer
 
 Given this project is focusing purely on the data, the viewer that was
 once part of this project has been moved out to its own project:
